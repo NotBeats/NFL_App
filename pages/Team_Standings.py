@@ -10,7 +10,7 @@ Simple webscraping of NFL player stats data.
 """)
 
 st.sidebar.header('User Input Features')
-year_selected = st.sidebar.selectbox('Year', list(reversed(range(1950,2023))))
+year_selected = st.sidebar.selectbox('Year', list(reversed(range(1950,2024))))
 
 # https://www.pro-football-reference.com/years/2022/receiving.htm
 # webscraping of NFL player stats 
